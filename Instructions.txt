@@ -141,3 +141,9 @@ Below is an example of a configuration file
 	
 </linkage_config>
 
+III. Change method
+
+To change from one method to another, you can either update  current configuration file or change to another configuration file. Changing to a completely different configuration file allows you to go back to the previous method without having to update the content of the configuration file again.
+
+In the project, the location of configuration file is determined in the java class located at: src\rosita\linkage\tests\FRILLinkageTest.java. This class is also the main class of the project.
+
